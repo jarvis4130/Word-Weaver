@@ -26,7 +26,7 @@ export const Appbar = () => {
           </button>
         </Link>
 
-        <Avatar name={res.name.toUpperCase() || "Anyonmous"} size="big" />
+        <Avatar name={res?.name.toUpperCase() || "Anyonmous"} size="big" />
       </div>
     </div>
   );
