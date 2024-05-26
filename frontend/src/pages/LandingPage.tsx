@@ -6,7 +6,7 @@ export const LandingPage = () => {
     <div>
       <Appbar />
       <div className="w-full relative" style={{ height: "calc(100vh - 81px)" }}>
-        <div className="pl-40 pt-20">
+        <div className=" pl-1 md:pl-40 pt-20">
           <div className="pt-15 w-1/2">
             <p className="text-8xl">Human stories & ideas</p>
           </div>
