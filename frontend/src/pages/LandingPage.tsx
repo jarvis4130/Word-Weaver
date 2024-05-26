@@ -16,10 +16,9 @@ export const LandingPage = () => {
             </p>
           </div>
           <div className="flex flex-row">
-            <Link to="/blogs" className="bg-black text-white py-4 px-8 rounded-full mr-5 my-4">
+            <Link to="/signup" className="bg-black text-white py-4 px-8 rounded-full mr-5 my-4">
               Get Started
             </Link>
-            <Link to="/signup" className="bg-black text-white py-4 px-8 rounded-full mr-5 my-4">Sign Up</Link>
           </div>
         </div>
       </div>
